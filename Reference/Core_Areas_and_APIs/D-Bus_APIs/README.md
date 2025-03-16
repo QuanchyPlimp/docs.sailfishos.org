@@ -208,7 +208,7 @@ List D-Bus services running:
 dbus-send --system --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.ListNames
 ```
 
-List activeable D-Bus services:
+List activatable D-Bus services:
 ```nosh
 dbus-send --system --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.ListActivatableNames
 ```
